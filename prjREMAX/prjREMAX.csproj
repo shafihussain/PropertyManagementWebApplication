@@ -199,10 +199,23 @@
     <Compile Include="Migrations\201804151916336_InitialModel.Designer.cs">
       <DependentUpon>201804151916336_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804152019542_CreatePropertyTable.cs" />
+    <Compile Include="Migrations\201804152019542_CreatePropertyTable.Designer.cs">
+      <DependentUpon>201804152019542_CreatePropertyTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.cs" />
+    <Compile Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.Designer.cs">
+      <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Property.cs" />
+    <Compile Include="Models\PropertyType.cs" />
+    <Compile Include="Models\PropertyStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -283,6 +296,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201804151916336_InitialModel.resx">
       <DependentUpon>201804151916336_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804152019542_CreatePropertyTable.resx">
+      <DependentUpon>201804152019542_CreatePropertyTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.resx">
+      <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
