@@ -207,6 +207,14 @@
     <Compile Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.Designer.cs">
       <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804152045158_PopulateStatusTable.cs" />
+    <Compile Include="Migrations\201804152045158_PopulateStatusTable.Designer.cs">
+      <DependentUpon>201804152045158_PopulateStatusTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804152049034_PopulateTypeTable.cs" />
+    <Compile Include="Migrations\201804152049034_PopulateTypeTable.Designer.cs">
+      <DependentUpon>201804152049034_PopulateTypeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -302,6 +310,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.resx">
       <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804152045158_PopulateStatusTable.resx">
+      <DependentUpon>201804152045158_PopulateStatusTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804152049034_PopulateTypeTable.resx">
+      <DependentUpon>201804152049034_PopulateTypeTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
