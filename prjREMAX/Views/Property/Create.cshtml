@@ -4,103 +4,106 @@
 }
 
 <h2>Create A New Listing</h2>
-<hr/>
-<form>
-    <h4>Property Title</h4>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.PropertyName)
-                @Html.TextBoxFor(m => m.PropertyName, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Price)
-                @Html.Label("$")@Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Date)
-                @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Time)
-                @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
-            </div>
-        </div>
-    </div>
-    <hr />
-    <h4>Property Details</h4>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-6">
-                @Html.LabelFor(m => m.Description)
-                @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
-            </div>
-            <div class="col-md-6">
-                @Html.LabelFor(m => m.Year)
-                @Html.TextBoxFor(m => m.Year, new { @class = "form-control" })
+<hr />
+@using (Html.BeginForm("Create", "Property"))
+{
+    <form>
+        <h4>Property Title</h4>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.PropertyName)
+                    @Html.TextBoxFor(m => m.PropertyName, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.Price)
+                    @Html.Label("$")@Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.Date)
+                    @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.Time)
+                    @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
+                </div>
             </div>
         </div>
-    </div>
-    <hr />
-    <h4>Property Address</h4>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-3">
-                @Html.Label("Civic Number")
-                @Html.TextBoxFor(m => m.CivicNumber, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Street)
-                @Html.TextBoxFor(m => m.Street, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.City)
-                @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Province)
-                @Html.TextBoxFor(m => m.Province, new { @class = "form-control" })
-            </div>
-            <div class="col-md-3">
-                @Html.LabelFor(m => m.Zipcode)
-                @Html.TextBoxFor(m => m.Zipcode, new { @class = "form-control" })
+        <hr />
+        <h4>Property Details</h4>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.LabelFor(m => m.Description)
+                    @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+                    <br />
+                    @Html.LabelFor(m => m.Year)
+                    @Html.TextBoxFor(m => m.Year, new { @class = "form-control" })
+                </div>
             </div>
         </div>
-    </div>
-    <hr />
-    <h4>Property Specifications</h4>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-4">
-                @Html.LabelFor(m => m.Rooms)
-                @Html.TextBoxFor(m => m.Rooms, new { @class = "form-control" })
-            </div>
-            <div class="col-md-4">
-                @Html.LabelFor(m => m.Bathrooms)
-                @Html.TextBoxFor(m => m.Bathrooms, new { @class = "form-control" })
-            </div>
-            <div class="col-md-4">
-                @Html.LabelFor(m => m.Size)
-                @Html.TextBoxFor(m => m.Size, new { @class = "form-control" })
-            </div>
-        </div>
-    </div>
-    <hr />
-    <h4>Additional Property Specification</h4>
-    <div class="form-group">
-        <div class="row">
-            <div class="col-md-6">
-                @Html.Label("Type ")
-                @Html.DropDownListFor(m => m.Type, new SelectList(Model.Types, "Id", "Name"), "", new {@class = "form-control"})
-            </div>
-            <div class="col-md-6">
-                @Html.Label("Status ")
-                @Html.DropDownListFor(m => m.Status, new SelectList(Model.Statuses, "Id", "Name"), "", new { @class = "form-control" })
+        <hr />
+        <h4>Property Address</h4>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-3">
+                    @Html.Label("Civic Number")
+                    @Html.TextBoxFor(m => m.CivicNumber, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.Street)
+                    @Html.TextBoxFor(m => m.Street, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.City)
+                    @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    @Html.LabelFor(m => m.Province)
+                    @Html.TextBoxFor(m => m.Province, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3">
+                    <br />
+                    @Html.LabelFor(m => m.Zipcode)
+                    @Html.TextBoxFor(m => m.Zipcode, new { @class = "form-control" })
+                </div>
             </div>
         </div>
-    </div>
-    <hr />
-    <div class="form-group">
-        <button type="button" class="btn btn-primary">Save New Property</button>
-    </div>
-</form>
+        <hr />
+        <h4>Property Specifications</h4>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.Rooms)
+                    @Html.TextBoxFor(m => m.Rooms, new { @class = "form-control" })
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.Bathrooms)
+                    @Html.TextBoxFor(m => m.Bathrooms, new { @class = "form-control" })
+                </div>
+                <div class="col-md-4">
+                    @Html.LabelFor(m => m.Size)
+                    @Html.TextBoxFor(m => m.Size, new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <hr />
+        <h4>Additional Property Specification</h4>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.Label("Type ")
+                    @Html.DropDownListFor(m => m.Type, new SelectList(Model.Types, "Id", "Name"), "", new { @class = "form-control" })
+                </div>
+                <div class="col-md-6">
+                    @Html.Label("Status ")
+                    @Html.DropDownListFor(m => m.Status, new SelectList(Model.Statuses, "Id", "Name"), "", new { @class = "form-control" })
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Save New Property</button>
+        </div>
+    </form>
+}
