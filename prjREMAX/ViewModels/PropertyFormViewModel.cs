@@ -1,4 +1,5 @@
-﻿ using System.Collections.Generic;
+﻿ using System;
+ using System.Collections.Generic;
 using prjREMAX.Models;
 
 namespace prjREMAX.ViewModels
@@ -12,11 +13,15 @@ namespace prjREMAX.ViewModels
         public string Time { get; set; }
         public string Description { get; set; }
         public int Year { get; set; }
+
+         #region Property Address
         public string CivicNumber { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
         public string Zipcode { get; set; }
+        #endregion
+
         public int Rooms { get; set; }
         public int Bathrooms { get; set; }
         public int Size { get; set; }
@@ -26,5 +31,10 @@ namespace prjREMAX.ViewModels
         public byte Status { get; set; }
         public IEnumerable<PropertyStatus> Statuses { get; set; }
         public IEnumerable<PropertyType> Types { get; set; }
+
+        public DateTime DateTime
+        {
+            get { return DateTime.Parse(string.Format("{0} {1}", Date, Time)); }
+        }
     }
 }

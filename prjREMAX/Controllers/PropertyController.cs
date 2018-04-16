@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using prjREMAX.Models;
@@ -41,7 +40,7 @@ namespace prjREMAX.Controllers
             var property = new Property
             {
                 ManagerId = managerId,
-                DateTime = DateTime.Parse(string.Format("{0} {1}", viewModel.Date, viewModel.Time)),
+                DateTime = viewModel.DateTime,
                 StatusId = viewModel.Status,
                 TypeId = viewModel.Type,
                 PropertyName = viewModel.PropertyName,
