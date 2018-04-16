@@ -15,7 +15,7 @@ namespace prjREMAX.Controllers
             _context = new ApplicationDbContext();
         }
         [Authorize]
-        public ActionResult Create()
+        public ActionResult Create() 
         {
             var viewModel = new PropertyFormViewModel
             {
@@ -28,7 +28,12 @@ namespace prjREMAX.Controllers
         [HttpPost]//action to be called only by HTTPPOST method
         public ActionResult Create(PropertyFormViewModel viewModel)
         {
-            var managerId = User.Identity.GetUserId();
+            if (!ModelState.IsValid)
+            {
+                viewModel.Types = _context.Types.ToList();
+                viewModel.Statuses = _context.Statuses.ToList();
+                return View("Create", viewModel);
+            }
 
             #region Refactored Code
             ////convert the PropertyViewModel to a property object, add it to the _context and save the changes.
@@ -39,8 +44,8 @@ namespace prjREMAX.Controllers
 
             var property = new Property
             {
-                ManagerId = managerId,
-                DateTime = viewModel.DateTime,
+                ManagerId = User.Identity.GetUserId(),
+                DateTime = viewModel.GetDateTime(),
                 StatusId = viewModel.Status,
                 TypeId = viewModel.Type,
                 PropertyName = viewModel.PropertyName,

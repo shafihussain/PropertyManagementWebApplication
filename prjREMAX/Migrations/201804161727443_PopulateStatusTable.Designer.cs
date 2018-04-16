@@ -7,13 +7,13 @@ namespace prjREMAX.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class OverrideConventionsForPropertiesAndAddress : IMigrationMetadata
+    public sealed partial class PopulateStatusTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(OverrideConventionsForPropertiesAndAddress));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateStatusTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804152039288_OverrideConventionsForPropertiesAndAddress"; }
+            get { return "201804161727443_PopulateStatusTable"; }
         }
         
         string IMigrationMetadata.Source

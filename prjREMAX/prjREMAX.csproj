@@ -196,37 +196,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804151916336_InitialModel.cs" />
-    <Compile Include="Migrations\201804151916336_InitialModel.Designer.cs">
-      <DependentUpon>201804151916336_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\201804161635179_InitialMigration.cs" />
+    <Compile Include="Migrations\201804161635179_InitialMigration.Designer.cs">
+      <DependentUpon>201804161635179_InitialMigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804152019542_CreatePropertyTable.cs" />
-    <Compile Include="Migrations\201804152019542_CreatePropertyTable.Designer.cs">
-      <DependentUpon>201804152019542_CreatePropertyTable.cs</DependentUpon>
+    <Compile Include="Migrations\201804161727443_PopulateStatusTable.cs" />
+    <Compile Include="Migrations\201804161727443_PopulateStatusTable.Designer.cs">
+      <DependentUpon>201804161727443_PopulateStatusTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.cs" />
-    <Compile Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.Designer.cs">
-      <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804152045158_PopulateStatusTable.cs" />
-    <Compile Include="Migrations\201804152045158_PopulateStatusTable.Designer.cs">
-      <DependentUpon>201804152045158_PopulateStatusTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804152049034_PopulateTypeTable.cs" />
-    <Compile Include="Migrations\201804152049034_PopulateTypeTable.Designer.cs">
-      <DependentUpon>201804152049034_PopulateTypeTable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804152322029_PopulateTypeTable1.cs" />
-    <Compile Include="Migrations\201804152322029_PopulateTypeTable1.Designer.cs">
-      <DependentUpon>201804152322029_PopulateTypeTable1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804160338116_AddForeignKeyPropertiesToProperty.cs" />
-    <Compile Include="Migrations\201804160338116_AddForeignKeyPropertiesToProperty.Designer.cs">
-      <DependentUpon>201804160338116_AddForeignKeyPropertiesToProperty.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201804160350478_AddForeignKeyPropertiesToProperty1.cs" />
-    <Compile Include="Migrations\201804160350478_AddForeignKeyPropertiesToProperty1.Designer.cs">
-      <DependentUpon>201804160350478_AddForeignKeyPropertiesToProperty1.cs</DependentUpon>
+    <Compile Include="Migrations\201804161730492_PopulateTypeTable.cs" />
+    <Compile Include="Migrations\201804161730492_PopulateTypeTable.Designer.cs">
+      <DependentUpon>201804161730492_PopulateTypeTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -318,29 +298,14 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201804151916336_InitialModel.resx">
-      <DependentUpon>201804151916336_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804161635179_InitialMigration.resx">
+      <DependentUpon>201804161635179_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804152019542_CreatePropertyTable.resx">
-      <DependentUpon>201804152019542_CreatePropertyTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804161727443_PopulateStatusTable.resx">
+      <DependentUpon>201804161727443_PopulateStatusTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804152039288_OverrideConventionsForPropertiesAndAddress.resx">
-      <DependentUpon>201804152039288_OverrideConventionsForPropertiesAndAddress.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804152045158_PopulateStatusTable.resx">
-      <DependentUpon>201804152045158_PopulateStatusTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804152049034_PopulateTypeTable.resx">
-      <DependentUpon>201804152049034_PopulateTypeTable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804152322029_PopulateTypeTable1.resx">
-      <DependentUpon>201804152322029_PopulateTypeTable1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804160338116_AddForeignKeyPropertiesToProperty.resx">
-      <DependentUpon>201804160338116_AddForeignKeyPropertiesToProperty.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201804160350478_AddForeignKeyPropertiesToProperty1.resx">
-      <DependentUpon>201804160350478_AddForeignKeyPropertiesToProperty1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201804161730492_PopulateTypeTable.resx">
+      <DependentUpon>201804161730492_PopulateTypeTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

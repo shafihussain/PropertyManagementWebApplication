@@ -7,13 +7,13 @@ namespace prjREMAX.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class PopulateTypeTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateTypeTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804151916336_InitialModel"; }
+            get { return "201804161730492_PopulateTypeTable"; }
         }
         
         string IMigrationMetadata.Source
