@@ -10,6 +10,7 @@
     white-space: normal;
 }
 
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
@@ -46,8 +47,8 @@ span.field-validation-error {
 }
 #key {
     margin-top: 18px;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 .container {
     margin-right: auto;
@@ -67,4 +68,12 @@ h6,
 .h5,
 .h6 {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #01579b;
+    border-bottom-color: #01579b;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #ffffff;
 }

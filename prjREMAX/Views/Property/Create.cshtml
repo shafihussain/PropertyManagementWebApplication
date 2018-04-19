@@ -7,7 +7,7 @@
 <hr />
 @using (Html.BeginForm("Create", "Property"))
 {
-    <p class="alert alert-info">All fields are <strong>required</strong></p>
+    <p class="alert alert-info">All fields are <strong>required.</strong></p>
     <form>
         <h4>Property Title</h4>
         <div class="form-group">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-3">
                     @Html.LabelFor(m => m.Price)
-                    @Html.Label("$")@Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+                    @Html.Label("$")@Html.TextBoxFor(m => m.Price, new { @class = "form-control", placeholder = "$100,000.00"})
                     @Html.ValidationMessageFor(m => m.Price)
                 </div>
                 <div class="col-md-3">
