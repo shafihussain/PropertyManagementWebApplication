@@ -7,13 +7,14 @@
 <hr />
 @using (Html.BeginForm("Create", "Property"))
 {
+    <p class="alert alert-info">All fields are <strong>required</strong></p>
     <form>
         <h4>Property Title</h4>
         <div class="form-group">
             <div class="row">
                 <div class="col-md-3">
                     @Html.LabelFor(m => m.PropertyName)
-                    @Html.TextBoxFor(m => m.PropertyName, new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.PropertyName, new { @class = "form-control", autofocus = "autofocus" })
                     @Html.ValidationMessageFor(m => m.PropertyName)
                 </div>
                 <div class="col-md-3">
@@ -23,12 +24,12 @@
                 </div>
                 <div class="col-md-3">
                     @Html.LabelFor(m => m.Date)
-                    @Html.TextBoxFor(m => m.Date, new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.Date, new { @class = "form-control", placeholder = "eg 1 Jan 2018"})
                     @Html.ValidationMessageFor(m => m.Date)
                 </div>
                 <div class="col-md-3">
                     @Html.LabelFor(m => m.Time)
-                    @Html.TextBoxFor(m => m.Time, new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.Time, new { @class = "form-control", placeholder = "eg 20:00" })
                     @Html.ValidationMessageFor(m => m.Time)
                 </div>
             </div>
