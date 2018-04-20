@@ -74,6 +74,84 @@ h6,
     border-bottom-color: #01579b;
 }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #ffffff;
-    background-color: #ffffff;
+    color: #01579b;
+    background-color: #fff;
 }
+.myJumbotron {
+    min-height: 100vh;
+    min-width: 98vw;
+    align-content: center;
+    padding-top: 20vh;
+    background-image: url('../Images/homeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Lato";
+}
+
+.fadedBox {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 30vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: snow;
+    position: absolute;
+    top: 3vw;
+    padding-top: 20vw;
+}
+
+.heroText {
+    padding-left: 20vw;
+}
+
+.rowDelayed {
+    margin-top: 101vh;
+}
+/* PAGE SPECIFIC OVERRIDES */
+
+.property > li {
+    position: relative;
+    margin-bottom: 7vh;
+    background-color: cornsilk;
+    width: 30vw;
+}
+
+
+    .property > li img {
+        vertical-align: middle;
+        width: 29vh;
+        border-radius: 50%;
+    }
+
+.property .details {
+    top: 0vh;
+    left: 32vh;
+    position: absolute;
+}
+
+.property > li {
+    list-style: none;
+    display: inline-block;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #000;
+    border-color: #fff;
+}
+#rgstrLink {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+
+/* PAGE SPECIFIC OVERRIDES */
+@media (min-width: 992px) {
+    .col-md-2 {
+        width: auto;
+    }
+}
+
