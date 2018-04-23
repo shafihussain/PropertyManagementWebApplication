@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using prjREMAX.Models;
@@ -14,6 +15,15 @@ namespace prjREMAX.Controllers
         {
             _context = new ApplicationDbContext();
         }
+        [Authorize]
+        //public ActionResult Mine()
+        //{
+        //    var managerId = User.Identity.GetUserId();
+        //    var properties = _context.Properties
+        //        .Where(p => p.ManagerId == managerId && p.DateTime > DateTime.Now)
+        //        .ToList();
+        //}
+
         [Authorize]
         public ActionResult Create() 
         {

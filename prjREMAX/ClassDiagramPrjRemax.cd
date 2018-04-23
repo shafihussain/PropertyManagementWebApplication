@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="prjREMAX.BundleConfig">
+    <Position X="13.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.FilterConfig">
+    <Position X="15.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.EmailService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.SmsService" BaseTypeListCollapsed="true">
+    <Position X="1" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.ApplicationUserManager">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ApplicationSignInManager">
+    <Position X="18.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.RouteConfig">
+    <Position X="13.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Startup">
+    <Position X="4" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.WebApiConfig">
+    <Position X="15.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.MvcApplication">
+    <Position X="4" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.AccountController">
+    <Position X="1" Y="4.75" Width="2.75" />
+    <NestedTypes>
+      <Class Name="prjREMAX.Controllers.AccountController.ChallengeResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\AccountController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAChACAAAAAAAAFgEgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.AppointmentsController">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AppointmentsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.HomeController">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.ListOfPropertiesController">
+    <Position X="13.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ListOfPropertiesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.ManageController">
+    <Position X="18.5" Y="9.25" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="prjREMAX.Controllers.ManageController.ManageMessageId" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Controllers\ManageController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABACAQiAAgAAAAEFhAAAAAAEAIMIAAEEEgAAkAAA=</HashCode>
+      <FileName>Controllers\ManageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Controllers.PropertyController">
+    <Position X="15.5" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Migrations.InitialMigration" BaseTypeListCollapsed="true">
+    <Position X="10" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804161635179_InitialMigration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.PopulateStatusTable" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804161727443_PopulateStatusTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.PopulateTypeTable" BaseTypeListCollapsed="true">
+    <Position X="10" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804161730492_PopulateTypeTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.AddNameToApplicationUSER" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804192143420_AddNameToApplicationUSER.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.AddAppointment" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804200037429_AddAppointment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.updateModelAppointment" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="18.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201804200118186_updateModelAppointment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="prjREMAX.Migrations.Configuration">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.Address">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAIAAACAAAAAAAAAAABAAIAAgAAAAA=</HashCode>
+      <FileName>Models\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.ApplicationDbContext">
+    <Position X="15.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAEAAAAAAAAQAAAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.ApplicationUser">
+    <Position X="1" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.Appointment">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAUQAAAAAAAQAAAAA=</HashCode>
+      <FileName>Models\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.Property">
+    <Position X="13.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAMBQAggAAAAAAIAAACAAAAFAQiAQAAAABAAAA=</HashCode>
+      <FileName>Models\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.PropertyStatus">
+    <Position X="1" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PropertyStatus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.Models.PropertyType">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PropertyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.AddPhoneNumberViewModel">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AddPhoneNumberViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ChangePasswordViewModel">
+    <Position X="15.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\ChangePasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ConfigureTwoFactorViewModel">
+    <Position X="1" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ConfigureTwoFactorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ExternalLoginConfirmationViewModel">
+    <Position X="7" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ExternalLoginConfirmationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ExternalLoginListViewModel">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ExternalLoginListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.FactorViewModel">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\FactorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ForgotPasswordViewModel">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ForgotPasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ForgotViewModel">
+    <Position X="1" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ForgotViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.IndexViewModel">
+    <Position X="7" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAQAAAEAEA=</HashCode>
+      <FileName>ViewModels\IndexViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.LoginViewModel">
+    <Position X="15.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModels\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ManageLoginsViewModel">
+    <Position X="1" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ViewModels\ManageLoginsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.PropertyFormViewModel">
+    <Position X="18.5" Y="17.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAAEBQAggAAMAAACAAACAAAEAAADAQIAAwBAAQA=</HashCode>
+      <FileName>ViewModels\PropertyFormViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.RegisterViewModel">
+    <Position X="6.5" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\RegisterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.ResetPasswordViewModel">
+    <Position X="10" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\ResetPasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.SendCodeViewModel">
+    <Position X="15.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>ViewModels\SendCodeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.SetPasswordViewModel">
+    <Position X="18.5" Y="15.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ViewModels\SetPasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.VerifyCodeViewModel">
+    <Position X="10" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAAgAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>ViewModels\VerifyCodeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="prjREMAX.ViewModels.VerifyPhoneNumberViewModel">
+    <Position X="13.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\VerifyPhoneNumberViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
